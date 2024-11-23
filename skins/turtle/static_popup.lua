@@ -14,7 +14,7 @@ pfUI:RegisterSkin("Static popups Turtle", "vanilla", function()
         end
 
         local dialog = _G["StaticPopup2" .. i]
-        CreateBackdrop(dialog, nil, true, .75)
+        CreateBackdrop(dialog, nil, true, .85)
         CreateBackdropShadow(dialog)
 
         SkinCloseButton(_G[dialog:GetName() .. "CloseButton"], dialog, -6, -6)

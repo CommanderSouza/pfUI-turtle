@@ -15,7 +15,7 @@ pfUI:RegisterSkin("Everlook Broadcasting Turtle", "vanilla", function()
 
     HookAddonOrVariable("EBCMinimapDropdown", function()
         StripTextures(EBCMinimapDropdown)
-        CreateBackdrop(EBCMinimapDropdown, nil, nil, .75)
+        CreateBackdrop(EBCMinimapDropdown, nil, nil, .85)
 
         if (EBCMinimapDropdownTitle) then
             SetFrameFont(EBCMinimapDropdownTitle, nil, EBC_TITLE, GameTooltipHeaderText)

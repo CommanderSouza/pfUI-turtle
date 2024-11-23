@@ -72,7 +72,7 @@ pfUI:RegisterSkin("Guild Bank Turtle", "vanilla", function()
         end)
 
         StripTextures(GuildBankFrame)
-        CreateBackdrop(GuildBankFrame, nil, nil, .75)
+        CreateBackdrop(GuildBankFrame, nil, nil, .85)
 
         if (GuildBankFrameCloseButton) then
             SkinCloseButton(GuildBankFrameCloseButton, GuildBankFrame.backdrop, -6, -6)
@@ -165,7 +165,7 @@ pfUI:RegisterSkin("Guild Bank Turtle", "vanilla", function()
 
         if (GuildBankFrameTabSettings) then
             StripTextures(GuildBankFrameTabSettings)
-            CreateBackdrop(GuildBankFrameTabSettings, nil, nil, .75)
+            CreateBackdrop(GuildBankFrameTabSettings, nil, nil, .85)
             GuildBankFrameTabSettings:ClearAllPoints()
             GuildBankFrameTabSettings:SetPoint("TOPLEFT",
                 GuildBankFrame.backdrop,
@@ -243,7 +243,7 @@ pfUI:RegisterSkin("Guild Bank Turtle", "vanilla", function()
             StripTextures(GuildBankFrameStackSplitFrame)
             GuildBankFrameStackSplitFrame:SetHeight(76)
             GuildBankFrameStackSplitFrame:SetWidth(162)
-            CreateBackdrop(GuildBankFrameStackSplitFrame, nil, nil, .75)
+            CreateBackdrop(GuildBankFrameStackSplitFrame, nil, nil, .85)
             CreateBackdropShadow(GuildBankFrameStackSplitFrame)
             if (GuildBankFrameStackSplitFrameLeftButton) then
                 GuildBankFrameStackSplitFrameLeftButton:ClearAllPoints()
